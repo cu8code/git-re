@@ -17,7 +17,7 @@ import AboutProduct from "@/components/AboutProduct";
 import { useParams } from "next/navigation";
 import { Separator } from "@radix-ui/react-dropdown-menu";
 
-interface GitHubProfile {
+export interface GitHubProfile {
   name: string;
   bio: string;
   blog: string;
@@ -27,7 +27,7 @@ interface GitHubProfile {
   created_at: string;
 }
 
-interface GitHubRepo {
+export interface GitHubRepo {
   id: number;
   name: string;
   description: string;
@@ -43,7 +43,7 @@ interface GitHubRepo {
   date: number;
 }
 
-interface Language {
+export interface Language {
   name: string;
   popularity: number;
   url: string;

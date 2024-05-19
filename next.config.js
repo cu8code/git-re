@@ -7,6 +7,7 @@ const nextConfig = {
       "avatars.githubusercontent.com",
       "github-readme-stats.vercel.app",
       "ghchart.rshah.org",
+      "images.unsplash.com"
     ],
   },
 };
